@@ -1,0 +1,1 @@
+export let zeros = (num: number) => num == 0 ? [] : Array.from(Array(num),() => 0);

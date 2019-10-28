@@ -1,0 +1,133 @@
+.dice-app {
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    border-radius: 15px;
+    position: relative;
+    margin: 10px;
+}
+
+.dice-app > div {
+    width: 20%;
+    height: 20%;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*  */
+
+.dice-dot-1 {
+    top: calc(50% - 10px);
+    left: calc(50% - 10px);
+}
+
+/*  */
+
+.dice-dot-2:nth-child(1) {
+    top: calc(25% - 10px);
+    left: calc(25% - 10px);
+}
+
+.dice-dot-2:nth-child(2) {
+    top: calc(75% - 10px);
+    left: calc(75% - 10px);
+}
+
+/*  */
+
+.dice-dot-3:nth-child(1) {
+    top: calc(25% - 10px);
+    left: calc(25% - 10px);
+}
+
+.dice-dot-3:nth-child(2) {
+    top: calc(50% - 10px);
+    left: calc(50% - 10px);
+}
+
+.dice-dot-3:nth-child(3) {
+    top: calc(75% - 10px);
+    left: calc(75% - 10px);
+}
+
+/*  */
+
+.dice-dot-4:nth-child(1) {
+    top: calc(25% - 10px);
+    left: calc(25% - 10px);
+}
+
+.dice-dot-4:nth-child(2) {
+    top: calc(25% - 10px);
+    left: calc(75% - 10px);
+}
+
+.dice-dot-4:nth-child(3) {
+    top: calc(75% - 10px);
+    left: calc(25% - 10px);
+}
+
+.dice-dot-4:nth-child(4) {
+    top: calc(75% - 10px);
+    left: calc(75% - 10px);
+}
+
+/*  */
+
+.dice-dot-5:nth-child(1) {
+    top: calc(25% - 10px);
+    left: calc(25% - 10px);
+}
+
+.dice-dot-5:nth-child(2) {
+    top: calc(25% - 10px);
+    left: calc(75% - 10px);
+}
+
+.dice-dot-5:nth-child(3) {
+    top: calc(50% - 10px);
+    left: calc(50% - 10px);
+}
+
+.dice-dot-5:nth-child(4) {
+    top: calc(75% - 10px);
+    left: calc(25% - 10px);
+}
+
+.dice-dot-5:nth-child(5) {
+    top: calc(75% - 10px);
+    left: calc(75% - 10px);
+}
+
+/*  */
+
+.dice-dot-6:nth-child(1) {
+    top: calc(25% - 10px);
+    left: calc(25% - 10px);
+}
+
+.dice-dot-6:nth-child(2) {
+    top: calc(25% - 10px);
+    left: calc(75% - 10px);
+}
+
+.dice-dot-6:nth-child(3) {
+    top: calc(50% - 10px);
+    left: calc(25% - 10px);
+}
+
+.dice-dot-6:nth-child(4) {
+    top: calc(50% - 10px);
+    left: calc(75% - 10px);
+}
+
+.dice-dot-6:nth-child(5) {
+    top: calc(75% - 10px);
+    left: calc(25% - 10px);
+}
+
+.dice-dot-6:nth-child(6) {
+    top: calc(75% - 10px);
+    left: calc(75% - 10px);
+}
